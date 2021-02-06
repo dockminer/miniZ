@@ -1,4 +1,14 @@
-# miniZ
+# Quick reference
+
+**Maintained by**: [The Dockminer Team](https://github.com/dockminer/miniZ)
+
+**Where to get help**: [Dockminer miniZ issues](https://github.com/dockminer/miniZ/issues), or [miniZ official website](https://miniz.ch/)
+
+# Supported tags and respective `Dockerfile` links
+
+- [`1.6.x`, `latest`](https://github.com/dockminer/miniZ/blob/a69f01e4c91acb2a3e2b28ffdc2c9cda187ea0cc/Dockerfile)
+
+# What is miniZ?
 
 miniZ is a fast and friendly Equihash miner.
 
@@ -19,7 +29,7 @@ miniZ is a fast and friendly Equihash miner.
 
 For a detailed description of features read [here](https://miniz.ch/features/).
 
-## How to use this image
+# How to use this image
 
 Run the following commands in your terminal:
 
@@ -29,7 +39,7 @@ The container should up and start mining.
 
 In default, the docker expose the 20000 port for miniZ monitoring page, you can connect http://localhost:2000 to see the web page.
 
-## Image Information
+# Image Information
 
 This image is built on top of the following softwares:
 
