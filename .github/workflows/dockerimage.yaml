@@ -15,10 +15,7 @@ jobs:
         with:
             images: ghcr.io/dockminer/miniz
             tag-sha: true
-            tag-semver: |
-                {{major}}
-                {{major}}.{{minor}}
-                {{version}}
+            tag-match: v(.*)
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
       - name: Login to GitHub Container Registry
