@@ -31,3 +31,9 @@ jobs:
         with:
             push: true
             tags: ${{ steps.docker_meta.outputs.tags }}
+      - name: Update repo description
+        uses: peter-evans/dockerhub-description@v2
+        with:
+            username: ${{ secrets.DOCKER_HUB_USERNAME }}
+            password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+            repository: dockminer/miniz
