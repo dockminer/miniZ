@@ -2,7 +2,7 @@ name: Update Docker Hub Description
 on:
     push:
         branches:
-          - mian
+          - main
         paths:
           - hub/README.md
           - .github/workflows/dockerhub-description.yaml
