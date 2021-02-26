@@ -6,7 +6,8 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`1.6.x`, `latest`](https://github.com/dockminer/miniZ/blob/a69f01e4c91acb2a3e2b28ffdc2c9cda187ea0cc/Dockerfile)
+- [`1.7x3`, `latest`](https://github.com/dockminer/miniZ/blob/2ab0e798a3215067e0168222bf508d9eeede72ef/Dockerfile)
+- [`1.6.x`](https://github.com/dockminer/miniZ/blob/a69f01e4c91acb2a3e2b28ffdc2c9cda187ea0cc/Dockerfile)
 
 # What is miniZ?
 
