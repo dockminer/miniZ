@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.2.0-base
+FROM nvidia/cuda:10.2-base
 
 LABEL maintainer="Dockminer"
 
