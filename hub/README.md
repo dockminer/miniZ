@@ -44,4 +44,4 @@ In default, the docker expose the 20000 port for miniZ monitoring page, you can 
 This image is built on top of the following softwares:
 
 - [Nvidia CUDA Container](https://gitlab.com/nvidia/container-images/cuda) v10.2
-- [miniZ](https://miniz.ch/) v1.6.x
+- [miniZ](https://miniz.ch/) v1.7x3
